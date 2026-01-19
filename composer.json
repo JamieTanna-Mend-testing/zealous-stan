@@ -20,6 +20,7 @@
 		"phpstan/phpstan-strict-rules": "^2.0",
 		"shipmonk/phpstan-rules": "^4.0",
 		"spaze/phpstan-disallowed-calls": "^4.0",
+		"symfony/flex": "^2.10",
 		"symplify/phpstan-rules": "^14.0.0"
 	},
 	"require-dev": {
@@ -29,7 +30,8 @@
 	"config": {
 		"allow-plugins": {
 			"ergebnis/composer-normalize": true,
-			"phpstan/extension-installer": true
+			"phpstan/extension-installer": true,
+			"symfony/flex": false
 		},
 		"sort-packages": true
 	},
